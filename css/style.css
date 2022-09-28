@@ -5,7 +5,7 @@
 }
 
 body    {
-    background-color: black;
+    background-color: pink;
     height: 100vh;
     width: 100vw;
 }
@@ -27,17 +27,19 @@ body    {
     text-align: center;;
 }
 
+img {
+    width: 100%;
+}
 
 
 /* Header */
 
-header{
-    background-color: black;
+/* header{
     height: auto;
-
-}
+} */
 
 .top_button_container   {
+    background-color: black;
     padding: 0.5rem;
 
     display: flex;
@@ -66,12 +68,40 @@ header{
 
 /* Main */
 
+main    {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
 .main_container {
-    background-color: white;
-    height: 800px;
     margin-top: 50px;
-    margin-bottom: 100px;
-    overflow: auto;
+    margin-bottom: 71px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    
+    overflow-y: auto;
+}
+
+.img_container {
+    position: relative;
+
+    flex-basis: calc(100% / 8 );
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.user   {
+    background-color: black;
+    color: white;
+    opacity: 70%;
+    padding: 1rem;
+
+    position: absolute;
+    left: 0.5rem;
+    bottom: 0.5rem;
 }
 
 /* Footer */
