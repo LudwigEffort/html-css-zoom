@@ -3,3 +3,58 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body    {
+    height: 100vh;
+    width: 100vw;
+}
+
+.reset_inline   {
+    display: inline;
+}
+
+.reset_block    {
+    display: block ;
+}
+
+.button {
+    background-color: blue;
+    color: white;
+    padding: 0.25rem;
+    border-radius: 5px;
+
+    text-align: center;;
+}
+
+/* Header */
+
+header{
+    background-color: antiquewhite;
+    height: auto;
+
+}
+
+.top_button_container   {
+    margin-top: 1rem;
+    margin-right: 1rem;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+}
+
+.speaker_btn    {
+    margin-right: 0.5rem;
+}
+
+.fa-table-cells   {
+    padding-right: 0.5rem;
+}
+
+/* Main */
