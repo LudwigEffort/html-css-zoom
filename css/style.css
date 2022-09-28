@@ -5,6 +5,7 @@
 }
 
 body    {
+    background-color: black;
     height: 100vh;
     width: 100vw;
 }
@@ -18,7 +19,7 @@ body    {
 }
 
 .button {
-    background-color: blue;
+    background-color: grey;
     color: white;
     padding: 0.25rem;
     border-radius: 5px;
@@ -26,17 +27,18 @@ body    {
     text-align: center;;
 }
 
+
+
 /* Header */
 
 header{
-    background-color: antiquewhite;
+    background-color: black;
     height: auto;
 
 }
 
 .top_button_container   {
-    margin-top: 1rem;
-    margin-right: 1rem;
+    padding: 0.5rem;
 
     display: flex;
     justify-content: flex-end;
@@ -55,6 +57,103 @@ header{
 
 .fa-table-cells   {
     padding-right: 0.5rem;
+    font-size: 1em;
+}
+
+.fa-maximize    {
+    font-size: 1em;
 }
 
 /* Main */
+
+.main_container {
+    background-color: white;
+    height: 800px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    overflow: auto;
+}
+
+/* Footer */
+
+.bottom_button_container {
+    background-color: black;
+    color: white;
+    padding: 0.5rem;
+
+    display: flex;
+    justify-content: space-between;
+
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+}
+
+.left_btn_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.mic_container  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mic_container i {
+    font-size: 2rem;
+}
+
+.video_container  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.video_container i {
+    font-size: 2rem;
+}
+
+.arrow_1  {
+    margin-left: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+/* Center */
+
+.center_btn_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 1rem;
+}
+
+.btn_container  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn_container i    {
+    font-size: 2rem;
+}
+
+.arrow_2  {
+    display: flex;
+    align-items: center;
+}
+
+/* Right */
+
+/* .right_btn_container    {
+    display: flex;
+}    */
+
+.prova  {
+    background-color: red;
+    padding: 1rem;
+}
