@@ -87,7 +87,7 @@ main    {
 .img_container  {
     position: relative;
 
-    flex-basis: calc(100% / 7- (0.5rem * 6));
+    flex-basis: calc(100% / 7 - (0.5rem * 6));
 
     flex-grow: 1;
     flex-shrink: 1;
