@@ -87,10 +87,12 @@ main    {
 .img_container  {
     position: relative;
 
-    flex-basis: calc(100% / 7 - (0.5rem * 6));
+    flex-basis: calc(100% / 7 - (3rem / 7));
 
-    flex-grow: 1;
-    flex-shrink: 1;
+    /* flex-basis: calc(100% / 7 - (3rem / 7)); */
+
+    /* flex-grow: 1;
+    flex-shrink: 1; */
 }
 
 .img_container img {
